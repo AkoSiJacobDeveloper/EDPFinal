@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.border-right {
+    border-right: 1px solid #171717;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #171717;
+}
+
+/* Custom scrollbar styling */
+.overflow-y-auto::-webkit-scrollbar {
+    width: 4px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+    background: #171717;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 2px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
+/* Transition classes */
+.transition-all {
+    transition: all 0.3s ease-in-out;
+}
+
+.duration-300 {
+    transition-duration: 300ms;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
